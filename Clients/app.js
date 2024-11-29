@@ -28,7 +28,7 @@ createTaskForm.addEventListener('submit', async (event) => {
 
 // Fetch and display tasks
 async function loadTasks() {
-    const response = await fetch('/tasks', {
+    const response = await fetch('https://backend-lively-thunder-8227.fly.dev/tasks', {
         headers: {
             'Authorization': 'Bearer your_token_here'
         }
